@@ -1,0 +1,11 @@
+{
+    "version": 2,
+    "configurePresets": [{
+        "name": "vcpkg",
+        "generator": "Ninja",
+        "binaryDir": "${sourceDir}/build",
+        "cacheVariables": {
+            "CMAKE_TOOLCHAIN_FILE": "/Users/ohadr/vcpkg/scripts/buildsystems/vcpkg.cmake"
+        }
+    }]
+}
